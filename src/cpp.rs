@@ -6515,7 +6515,7 @@ pub mod root {
                 extern "C" {
                     #[link_name = "\u{1}_ZN3app8lua_bind28GroundModule__get_width_implEPNS_26BattleObjectModuleAccessorE"]
                     pub fn get_width(module_accessor: *mut root::app::BattleObjectModuleAccessor)
-                        -> u64;
+                        -> f32;
                 }
                 extern "C" {
                     #[link_name = "\u{1}_ZN3app8lua_bind42GroundModule__get_down_movement_speed_implEPNS_26BattleObjectModuleAccessorE"]
